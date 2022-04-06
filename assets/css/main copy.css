@@ -77,7 +77,7 @@ video {
 }
 
 h1,
-h2, 
+h2,
 h3,
 h4,
 h5,
@@ -1424,8 +1424,7 @@ ol {
 /* Topbar */
 .header .toolbar-area {
   padding: 12px 0;
-  background: #a11717;
-  height: 55px;
+  background: #ce1515;
 }
 
 .header .toolbar-area .toolbar-social {
@@ -1480,15 +1479,59 @@ ol {
 .header .toolbar-login a:last-child {
   margin: 0;
 }
-
-.header .toolbar-login .btn {
+.header .toolbar-social .btn {
   color: #a11717;
+  border-radius: 18px;
+  background-color:#1c7bf7;
+  font-size: 9px;
+  padding-top: 14px;
+  padding-bottom: 19px;
+  padding: 7px;
+  border-color:red;
+  border-style: double;
+  position: relative;
+  top: -3px;
+
+}
+.header .toolbar-social a{
+  color: red;
+}
+.header .toolbar-social a:hover {
+  opacity: 0.7;
+}
+.header .toolbar-social .btn:hover {
+  color: red;
+  opacity: 1;
+  background-color: transparent;
+  border-color: #fff;
+  
+}
+.atf-top-header-list li{
+  margin-right: 30px;
+	color:white;
+	font-size: 15px;
+}
+.header .toolbar-login .btn {
+  color: #fff;
   padding: 6px 20px;
-  font-size: 13px;
-  background-color: #fff;
-  border-radius: 4px;
+  font-size: 14px;
+  background-color:#1c7bf7;
+  border-radius: 16px;
   border: 1px solid transparent;
   font-weight: 600;
+  padding-bottom: 9px;
+  padding: 8px;
+  position: relative;
+  top:50%;
+  border-color:red;
+  border-style: double;
+  width:140px;
+  height:37px;
+  border-color:red;
+  border-style: double;
+  position: relative;
+  top: 2.8px;
+
 }
 
 .header .toolbar-login .btn:before {
@@ -1543,6 +1586,8 @@ ol {
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  padding-bottom:29 px;
+  height:180px;
 }
 
 .navbar-brand {
@@ -1550,7 +1595,10 @@ ol {
 }
 
 .navbar-brand img {
-  width: 170px;
+  width: 150px;
+  height: 170px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .mobile-menu-btn {
@@ -1636,7 +1684,6 @@ ol {
 .navbar-nav .nav-item:first-child {
   margin: 0;
 }
-
 .navbar-nav .nav-item a:hover {
   color: #a11717;
 }
@@ -2005,8 +2052,9 @@ ol {
 ========================================*/
 .hero-area {
   position: relative;
-  background-color: #F4F7FA;
-  overflow: hidden;
+  background-color:#081828;
+
+  
 }
 
 .hero-area.style2 {
@@ -2029,7 +2077,7 @@ ol {
 .hero-area.style2 .hero-text h1 {
   font-size: 40px;
   line-height: 55px;
-  color: #081828;
+  color: red;
 }
 
 .hero-area.style2 .hero-text h1 span {
@@ -2047,7 +2095,7 @@ ol {
 }
 
 .hero-area.style2 .hero-text .button .btn::before {
-  background: #081828;
+  background: red;
 }
 
 .hero-area.style2 .hero-text .button .btn i {
@@ -2132,6 +2180,7 @@ ol {
   margin: 0px 5px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+ 
 }
 
 .hero-area .tns-nav button.tns-nav-active {
@@ -2149,7 +2198,7 @@ ol {
 
 .hero-area .hero-inner.overlay::before {
   opacity: 0.9;
-  background: #081828;
+  background:#080813;
 }
 
 .hero-area .hero-image {
@@ -2174,7 +2223,7 @@ ol {
   margin-bottom: 15px;
   display: inline-block;
   padding: 12px 22px;
-  background: #a11717 !important;
+  background:#1c7bf7 !important;
   text-transform: none;
   border-radius: 30px;
 }
@@ -2272,6 +2321,7 @@ ol {
 
   .contact-us-section {
     padding-top: 50px;
+    
   }
   
   .contact-title i {
@@ -2280,6 +2330,7 @@ ol {
 
   .contact-us .about-left {
     padding-right: 100px;
+    
   }
   
   .contact-us .about-left p {
@@ -2300,7 +2351,7 @@ ol {
     border-radius: 30px 30px 30px 0;
     font-weight: 600;
     color: #fff;
-    background-color: #081828;
+    background-color:#1c7bf7;
     font-size: 13px;
     margin-bottom: 8px;
   }
@@ -2349,6 +2400,10 @@ ol {
 .text-center{
   margin-top: 20px;
   padding-bottom: 10px;
+  text-align: left;
+  font-size: 40px;
+  
+  
 }
 
 .eye-center {
@@ -2360,6 +2415,8 @@ ol {
 .second-mission-vision-container {
   margin-bottom: 50px;
 }
+
+
 
 .second-mission-vision-container i {
   margin-left: 200px;
@@ -2373,6 +2430,12 @@ ol {
   background-color: #00a6511c;
   border-radius: 50%;
 }
+.second-mission-vision-container p{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
  
 .line-space {
   line-height: 1.7;
@@ -2453,10 +2516,11 @@ ol {
 }
 
 .courses .single-course .course-image img {
-  width: 450px;
-  height:430px;
+  width: 100%;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  height: 600px;
+  width:500px;
 }
 
 .courses .single-course .course-image .price {
@@ -2604,7 +2668,7 @@ ol {
   border-radius: 30px 30px 30px 0;
   font-weight: 600;
   color: #fff;
-  background-color: #081828;
+  background-color: #1c7bf7;
   font-size: 13px;
   margin-bottom: 8px;
 }
@@ -2617,6 +2681,10 @@ ol {
   text-transform: capitalize;
   position: relative;
   font-weight: 700;
+}
+.about-us .about-left .about-title p{
+  font-size: 19px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .about-us .about-left .button {
@@ -2642,10 +2710,10 @@ ol {
 }
 
 .about-us .about-right img {
-  width: 310px;
-  height:310px;
+  width: 100%;
   border-radius: 0;
   overflow: hidden;
+  height: 800px;
 }
 
 .our-achievement {
@@ -2664,6 +2732,7 @@ ol {
   font-weight: 600;
   display: block;
   margin-bottom: 15px;
+  
 }
 
 .our-achievement .single-achievement p {
@@ -2703,7 +2772,7 @@ ol {
 }
 
 .our-achievement.overlay::before {
-  background-color: rgb(8, 24, 40);
+  background-color:#a11717;
   opacity: 0.92;
 }
 
@@ -3037,7 +3106,10 @@ ol {
   text-transform: capitalize;
   margin-bottom: 30px;
 }
-
+.footer .single-footer p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
 .footer .recent-blog ul li {
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -3100,11 +3172,12 @@ ol {
 .footer .f-link ul li a {
   display: inline-block;
   color: #888;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   position: relative;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer .f-link ul li a:hover {
@@ -3160,11 +3233,13 @@ ol {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section {
     padding: 60px 0px;
+    
   }
 
   .section-title {
     margin-bottom: 30px;
     padding: 0px 90px;
+    
   }
 
   .section-title span {
