@@ -1425,7 +1425,7 @@ ol {
 .header .toolbar-area {
   padding: 12px 0;
   background: #a11717;
-  height: 55px;
+  
 }
 
 .header .toolbar-area .toolbar-social {
@@ -1435,6 +1435,8 @@ ol {
 .header .toolbar-area .toolbar-social ul li {
   display: inline-block;
   margin-right: 15px;
+  
+  
 }
 
 .header .toolbar-area .toolbar-social ul li .title {
@@ -1442,6 +1444,7 @@ ol {
   font-weight: 600;
   font-size: 13px;
   color: #fff;
+  text-align: center;
 }
 
 .header .toolbar-area .toolbar-social ul li:last-child {
@@ -1550,7 +1553,7 @@ ol {
 }
 
 .navbar-brand img {
-  width: 170px;
+  width: 160px;
 }
 
 .mobile-menu-btn {
@@ -2258,7 +2261,7 @@ ol {
   }
 
   .contact-us {
-    background-color: #ffff;
+    background-color: ghostwhite;
     position: relative;
   }
   
@@ -2383,7 +2386,7 @@ ol {
     Courses CSS
 ========================================*/
 .courses {
-  background-color: #fff;
+  background-color: rgb(223, 217, 217);
 }
 
 .courses .section-title {
@@ -2453,8 +2456,8 @@ ol {
 }
 
 .courses .single-course .course-image img {
-  width: 450px;
-  height:430px;
+  width: 470px;
+  height:450px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -2642,8 +2645,8 @@ ol {
 }
 
 .about-us .about-right img {
-  width: 310px;
-  height:310px;
+  width: 360px;
+  height:480px;
   border-radius: 0;
   overflow: hidden;
 }
@@ -2960,7 +2963,7 @@ ol {
 	Footer CSS
 ========================================*/
 .footer {
-  background-color: #fff;
+  background-color: ghostwhite;
   z-index: 2;
   position: relative;
   border-top: 1px solid #eee;
